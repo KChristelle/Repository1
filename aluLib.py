@@ -498,7 +498,7 @@ def draw_polygon(vertices):
     canvas.draw_polygon(vertices)
 
 
-def draw_triangle(x1, y1, x2, y2, x3, y3):
+def draw_triangle(x1: object, y1: object, x2: object, y2: object, x3: object, y3: object) -> object:
     draw_polygon([(x1, y1), (x2, y2), (x3, y3)])
 
 

@@ -4,11 +4,14 @@ window_height = 600
 window_width = 1000
 
 
-def nigeria():
-    set_fill_color(0, 0.53, 0.32)
-    rectangle_width =window_width/3
-    draw_rectangle(0, 0, rectangle_width, window_height)
-    draw_rectangle(rectangle_width*2, 0, rectangle_width, window_height)
+def niger():
+    set_fill_color(1, 0, 0)
+    rectangle_height = window_height / 3
+    draw_rectangle(0, 0, window_width, rectangle_height)
+    set_fill_color(0, 1, 0)
+    draw_rectangle(0, rectangle_height * 2, window_width, rectangle_height)
+    set_fill_color(1, 0, 0)
+    draw_circle(500, 300, 80)
 
 
-start_graphics(nigeria, width=window_width, height=window_height)
+start_graphics(niger, width=window_width, height=window_height)
