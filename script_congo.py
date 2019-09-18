@@ -13,6 +13,4 @@ def congo():
     draw_triangle(x1=window_length, y1=window_height, x2=window_length, y2=0, x3=0, y3=window_length)
 
 
-
-
 start_graphics(congo, width=window_length, height=window_height)

@@ -575,10 +575,10 @@ def get_text_height():
 
 # the frames parameters gives the number of frames to display on the
 #  browser version of cs1lib.  Ignored in qt version.
-def start_graphics(draw_func=noop, frames=1, data=None, framerate=40,
-                   title="cs1", width=400, height=400,
-                   mouse_press=noop, mouse_release=noop, mouse_move=noop,
-                   key_press=noop, key_release=noop):
+def start_graphics(draw_func: object = noop, frames: object = 1, data: object = None, framerate: object = 40,
+                   title: object = "cs1", width: object = 400, height: object = 400,
+                   mouse_press: object = noop, mouse_release: object = noop, mouse_move: object = noop,
+                   key_press: object = noop, key_release: object = noop) -> object:
 
     global canvas
 
